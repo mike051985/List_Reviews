@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.title {
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+.underline {
+    max-width: 220px;
+    margin: 0 auto 6rem auto;
+    border-bottom: 0.3rem solid #1e90ff;
+}
+
+.review {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    max-width: 400px;
+    margin: 5em auto 3rem auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.img-container {
+    width: 50%;
+    margin: 2em auto 1rem auto;
+}
+
+#pic-img {
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+
+.prev-btn,
+.next-btn {
+    border: none;
+    color: #1e90ff;
+    background: #ffffff;
+}
+
+#job {
+    color: #1e90ff;
+}
+
+#info {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.random-btn {
+    color: #1e90ff;
+    padding: 0.5em 0.5em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    border: 2px solid #1e90ff;
+    border-radius: 5px;
+    font-weight: 700;
+}
+
+footer {
+    font-weight: 200;
+    text-align: center;
+    bottom: 0;
+}
+
+@media (max-width: 675px) {
+    .review {
+        text-align: center;
+        font-size: 1rem;
+        padding-top: 0.8rem;
+        max-width: 300px;
+    }
+}
