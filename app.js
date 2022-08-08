@@ -30,7 +30,6 @@ const reviews = [{
 ];
 
 // Select items
-
 const img = document.getElementById("pic-img");
 const author = document.getElementById("author");
 const job = document.getElementById("job");
@@ -45,11 +44,10 @@ let currentItem = 0;
 
 //Load initial item
 window.addEventListener("DOMContentLoaded", function() {
-    showPerson();
+    showPerson()
 });
 
 // Show person based on item
-
 function showPerson() {
     const item = reviews[currentItem];
     img.src = item.img;
